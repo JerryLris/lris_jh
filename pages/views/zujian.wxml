@@ -1,0 +1,6 @@
+<view class='lris-title'>组件</view>
+
+<map longitude="113.75179" latitude="23.02067"></map>
+
+<view></view>
+<button bindtap='getLocation'>获取用户地理位置</button>

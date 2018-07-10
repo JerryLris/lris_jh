@@ -1,0 +1,2 @@
+<view class='lris-title'>success page!</view>
+<view>{{id}}</view>

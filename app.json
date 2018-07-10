@@ -1,0 +1,16 @@
+{
+  "pages":[
+    
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/success/success",
+    "pages/views/calc",
+    "pages/views/zujian"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "lris",
+    "navigationBarTextStyle":"black"
+  }
+}

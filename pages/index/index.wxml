@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <!--跳转到cal -->
+  <view class='lris-line'>
+    <text class='lris-text' bindtap="toViewCalc">跳转到calc</text>
+  </view>
+  <!--跳转到success -->
+  <view class='lris-line'>
+    <text class='lris-text' bindtap="toViewSuccess">跳转到success</text>
+  </view>
+<!--跳转到czujian -->
+  <view class='lris-line'>
+    <text class='lris-text' bindtap="toViewZujian">跳转到zujian</text>
+  </view>
+
+</view>
